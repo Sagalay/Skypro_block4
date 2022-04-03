@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "StratosSkyeng", Arial, Helvetica, sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #004980;
+}
+
+.main .container {
+  max-height: 500px;
+  max-width: 500px;
+  margin: 20px;
+  padding: 50px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #c2f5ff;
+  border-radius: 12px;
+}
+
+.main .container .heading {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #004980;
+}
+
+.main .container .form .difficulty-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 48px 0 70px;
+}
+
+.main .container .form .difficulty-block .difficulty {
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #0080c1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main .container .form .button-start {
+  min-width: 250px;
+  height: 50px;
+  background: #7ac100;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
