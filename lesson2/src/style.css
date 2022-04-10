@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'StratosSkyeng', Arial, Helvetica, sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #004980;
+}
+
+.main .button {
+  min-width: 250px;
+  height: 50px;
+  background: #7ac100;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.main .container {
+  max-height: 500px;
+  max-width: 500px;
+  margin: 20px;
+  padding: 50px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #c2f5ff;
+  border-radius: 12px;
+}
+
+.main .container .heading {
+  min-width: 260px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #004980;
+}
+
+.main .container .form .difficulty-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 48px 0 70px;
+}
+
+.main .container .form .difficulty-block .difficulty {
+  padding: 10px 30px;
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #0080c1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main_game {
+  display: block;
+  height: auto;
+  min-height: 100vh;
+  padding: 22px;
+}
+
+.main_game .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 35px;
+}
+
+.main_game .header .timer {
+  color: #fff;
+}
+
+.main_game .header .timer__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.main_game .header .timer__title-min {
+  margin-left: 40px;
+}
+
+.main_game .header .timer__title-sec {
+  margin-left: 53px;
+}
+
+.main_game .header .timer__digits {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.main_game .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
+  grid-gap: 15px;
+}
+
+.main_game .popup {
+  display: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 73, 128, 0.7);
+}
+
+.main_game .popup .popup__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding-left: 122px;
+  padding-right: 122px;
+}
+
+.main_game .popup .popup__container .popup-image {
+  width: 96px;
+}
+
+.main_game .popup .popup__container .text {
+  margin: 28px 0 10px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.main_game .popup .popup__container .time {
+  font-size: 64px;
+  line-height: 72px;
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=style.css.map */
